@@ -17,7 +17,7 @@
             <x-splade-checkbox name="is_active" value="1" label="Is active?" />
             <br />
 
-            <x-splade-select name="participants[]" label="Participants" :options="$users" multiple choices />
+            <x-splade-select name="users[]" label="Participants" :options="$users" multiple choices />
             <br />
 
             <x-splade-file name="logo" label="Logo" filepond preview accept="image/png" />
